@@ -13,11 +13,18 @@ Asegúrate de tener instalado Node.js en tu máquina. Puedes descargarlo desde [
    ```bash
    git clone https://github.com/hansmen12/prueba-tecnica.git
 
+   ```
+
 2. Entra en el directorio del proyecto: cd tu-proyecto
 
 3. Instala las dependencias: npm install
 
 4. Para iniciar el servidor de desarrollo, ejecuta: npm run dev
 
+## Compilar
 
+1. Instala las dependencias: npm install
 
+2. Ejecuta el siguiente comando para construir la aplicación para producción: npm run build
+
+Este comando generará una carpeta dist/ en el directorio del proyecto, que contendrá los archivos optimizados listos para ser desplegados.
